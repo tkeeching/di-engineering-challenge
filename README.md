@@ -71,13 +71,13 @@ Make sure you have the following version of Node.js and npm or later.
     "https://en.wikipedia.org/wiki/Women%27s_100_metres_world_record_progression"
 
     Invalid URLs:
-    Not using https: "https://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression"
+    Not using https: "http://en.wikipedia.org/wiki/Women%27s_high_jump_world_record_progression"
     Invalid format: "https://en.wikipedia.org/Women%27s_high_jump_world_record_progression"
     Missing article path: "https://en.wikipedia.org/wiki/"
     Non-Wikipedia: "https://google.com"
     ```
 
-3. The graph image output can be found in [`output/`](./output) folder
+3. The graph image output can be found in `output/` folder
 
     Sample graph image output,
 
