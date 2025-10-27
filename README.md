@@ -51,8 +51,18 @@ Make sure you have the following version of Node.js and npm or later.
 
 ### Setup
 
-1. Clone this repo to your local computer with `git clone https://github.com/tkeeching/di-engineering-challenge.git`
-2. Navigate to the root of the cloned repo with `cd di-engineering-challenge`, and install Node dependencies with `npm install`
+1. Clone this repo to your local computer 
+    ```
+    git clone https://github.com/tkeeching/di-engineering-challenge.git
+    ```
+2. Navigate to the root of the cloned repo
+    ```
+    cd di-engineering-challenge
+    ```
+3. Install Node dependencies with 
+    ```
+    npm install
+    ```
 
 ### Run
 
@@ -85,7 +95,11 @@ Make sure you have the following version of Node.js and npm or later.
 
 ### Test
 
-To run the unit tests, run `npm test`. After the test has completed, you will get a coverage report that looks like the following image. (coverage report is stored in `coverage/` folder)
+To run the unit tests, run 
+```
+npm test
+```
+After the test has completed, you will get a coverage report that looks like the following image. (coverage report is stored in `coverage/` folder)
 
 ![coverage](sample/coverage.png)
 
