@@ -1,0 +1,31 @@
+{
+    "name": "di-engineering-challenge",
+    "version": "1.0.0",
+    "description": "Detector Inspector Engineering Challenge Submission",
+    "author": "Kee Tee",
+    "engine": {
+        "node": "^20.10.0",
+        "npm": "^6.14.5"
+    },
+    "scripts": {
+        "start": "ts-node ./src/index.ts",
+        "test": "jest --coverage"
+    },
+    "dependencies": {
+        "axios": "^1.12.2",
+        "chart.js": "^4.5.1",
+        "chartjs-node-canvas": "^5.0.0",
+        "cheerio": "^1.1.2",
+        "typescript": "^5.9.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.28.4",
+        "@babel/preset-env": "^7.28.3",
+        "@babel/preset-typescript": "^7.27.1",
+        "@types/jest": "^30.0.0",
+        "babel-jest": "^30.2.0",
+        "jest": "^30.2.0",
+        "ts-jest": "^29.4.5",
+        "ts-node": "^10.9.2"
+    }
+}
