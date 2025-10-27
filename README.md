@@ -87,7 +87,7 @@ Make sure you have the following version of Node.js and npm or later.
 
 To run the unit tests, run `npm test`. After the test has completed, you will get a coverage report that looks like the following image. (coverage report is stored in `coverage/` folder)
 
-    ![coverage](sample/coverage.png)
+![coverage](sample/coverage.png)
 
 ## Potential Improvements
 
